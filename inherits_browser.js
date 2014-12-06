@@ -35,7 +35,7 @@
             TempCtor.prototype = superCtor.prototype;
             ctor.prototype = new TempCtor();
             ctor.prototype.constructor = ctor;
-        }
+        };
     }
 
     return inherits;
